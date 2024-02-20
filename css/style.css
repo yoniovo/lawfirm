@@ -1,0 +1,484 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+}
+img{
+    max-width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background-color:#fff;
+   height:45px;
+   
+    
+}
+nav:hover
+{
+    background-color: rgb(211, 210, 210);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav li:hover
+{
+    background-color: rgb(97, 26, 26);
+    width: 70px;
+    text-align: center;
+    border-radius: 50px;
+}
+nav a:hover
+{
+    color: #fff;   
+}
+nav .middle
+{
+    width: 700px;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 18px;
+  
+}
+nav a{
+    text-decoration: none;
+    color: black;   
+}
+nav .icon img{
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    padding-right: 70px;   
+}
+nav .logo
+{
+    padding-left: 70px;
+    font-size: 30px;    
+}
+.maincontainer
+{
+     background-image: linear-gradient(rgba(54, 48, 48, 0.55),rgba(0,0,0,0.55)),url(../images/pexels-photo-5668484.jpeg);;
+     height: 90vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+     text-align: center;
+}
+.maincontainer .top
+{
+    font-size: 30px; 
+    text-decoration: underline; 
+    text-decoration-color: rgb(180, 119, 6);  
+}
+.maincontainer .main{
+    font-size: 48px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.maincontainer .insidemaincontainer
+{
+padding-top: 15%;
+}
+.maincontainer .insidemaincontainer .link a:hover{
+color: rgb(34, 14, 212);
+font-size: 20px;
+}
+.maincontainer .insidemaincontainer .link a
+{
+    color: #fff;
+    text-decoration: none;  
+}
+.maincontainer .link{
+    padding-top: 15px;}
+
+    /*--------------------------- secondcontainer style ----------------------------------------------*/
+
+    .secondcontainer
+    {
+        background-color:wheat;
+        height: 500px;
+        
+    }
+.secondcontainer .inside
+{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+  color: #fff;
+    text-align: center;
+justify-content: space-around;
+padding-top: 70px;
+}
+.secondcontainer .left{
+    width: 25.5%;
+    height: 400px;
+    background-color:rgb(12, 12, 44);
+    padding-right: 10px;
+    margin: 0px 10px 0 10px;
+    border-radius: 100px;
+}
+.secondcontainer .left:hover
+{
+    background-color: #fff;
+    color: black;
+}
+.secondcontainer .middle
+{
+    width: 25.5%;
+    height: 400px;
+    background-color: rgb(31, 24, 24);
+    border-radius: 100px;
+    padding: 0 10px 10px 0;
+
+}
+.secondcontainer .middle:hover
+{
+    background-color: #fff;
+    color: black;
+}
+.secondcontainer .right
+{
+
+    width: 25.5%;
+    height: 400px;
+    background-color:rgb(102, 31, 31);
+    border-radius: 100px;
+   
+    margin-left: 10px;
+}
+.secondcontainer .right:hover
+{
+    background-color: #fff;
+    color: black;
+}
+ .head{
+    font-size: 40px;
+    padding-top: 40px;
+}
+.text
+{
+    
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+/*--------------------------------      thirdcontainer style    ------------------*/
+.thirdcontainer{
+    height: 1140px;
+    background-color: rgb(31, 24, 24);
+    text-align: center;
+
+}
+.thirdcontainer .mainhead
+{
+    font-size: 60px;
+    padding: 40px 0 30px 0 ;
+    color: #fff;
+}
+.topcontainer
+{
+    height: 500px;
+   width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width: 25.5%;
+    height: 400px;
+    background-color:wheat;
+    border-radius: 100p;
+   
+    margin-left: 10px;
+}
+.topcontainer .left:hover
+{
+    width: 27.5%;
+    height: 450px;
+    background-color: #fff;
+    color: #5c1b1b;
+  
+}
+ .midle{
+    width: 28.5%;
+    height: 400px;
+    background-color:wheat;
+    border-radius: 100p;
+   
+    margin-left: 10px;
+}
+.topcontainer .midle:hover
+{
+    width: 30%;
+    height: 450px;
+    background-color: #fff;
+    color: #5c1b1b;
+  
+}
+ .right
+{
+    width: 27.5%;
+    height: 400px;
+    background-color:wheat;
+    border-radius: 100p;
+   
+    margin-left: 10px;
+}
+
+.topcontainer .right:hover
+{
+    width: 30%;
+    height: 450px;
+    background-color: #fff;
+    color: #5c1b1b;
+  
+}
+.thirdcontainer .learn{
+padding-top: 50px;
+
+}
+.thirdcontainer .learn a    
+{
+text-decoration: none;
+color: #ce5d5d;
+
+}
+ 
+
+.thirdcontainer .learn a:hover
+{
+    
+    color: rgb(129, 108, 108);
+    
+    text-align: center;
+}
+
+
+/*middle*/
+.thirdcontainer .middlecontainer
+{
+    height: 500px;
+    width: 1000px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+}
+.thirdcontainer .middlecontainer .left{
+    background-color:rgb(102, 31, 31);
+    color: #fff;
+}
+.thirdcontainer .middlecontainer .left:hover{
+    background-color:rgb(12, 12, 44);
+}
+.thirdcontainer .middlecontainer .midle{
+    background-color:rgb(102, 31, 31);
+    color: #fff;
+}
+.thirdcontainer .middlecontainer .midle:hover{
+    background-color:rgb(12, 12, 44);
+}
+.thirdcontainer .middlecontainer .right{
+    background-color:rgb(102, 31, 31);
+    color: #fff;
+    
+}
+.thirdcontainer .middlecontainer .right:hover{
+    background-color:rgb(12, 12, 44);
+}
+/*----------------- bottom ---------*/
+.thirdcontainer .bottomcontainer
+{
+    height: 500px;
+    width: 100%;
+   
+     background-color: rgb(22, 22, 87);
+    
+}
+.insidebottomcontainer
+{
+  width: 60%;
+  height: 400px;
+  margin: 10px auto;
+    background-color: #e2d9d9;
+    text-align: center;
+  border-style: solid;
+  border-radius: 50px;
+  
+}
+#contactlink
+{
+    color:  rgb(22, 22, 87);
+}
+.thirdcontainer .bottomcontainer .top{
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 70px;
+}
+.thirdcontainer .bottomcontainer .middle .text{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.thirdcontainer .bottomcontainer .bottom{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+/*-------------------------------- detailed info styling   ------------------------------*/
+.detailed_info
+{
+    max-width: 100%;
+}
+.textholder_detailed_info
+{
+    width: 55%;
+    margin: 2rem auto;
+    
+    font-size: 1.1rem;
+    font-family: sans-serif;
+   
+}
+.detailed_info #firm-in-detail
+{
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(126, 123, 123);
+    padding-top: 5rem;
+}
+.main-text{
+ 
+    padding: 3rem 3rem 3rem 3rem ;
+    color: rgb(41, 41, 41);
+  font-weight: 50;
+   background-color: rgb(173, 173, 173);
+   border-radius: 10px;
+    
+}
+.services-detail
+{
+    text-align: center;
+    color: #109764;
+    font-size: 3rem;
+    margin-top: 2rem;
+
+
+   
+    
+}
+/*---------------   first-detail style   ------------           */
+
+
+.first-container
+{
+    width: 55%;
+    margin: 2rem auto;
+    
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.second-container,.third-container, .fourth-container, .fifth-container, .sith-container
+{
+    width: 55%;
+    margin: 0rem auto;
+   
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+}
+
+/*          ---- third-container style ---------------*/
+#business-detail , #CATASTROPICINJURY-detail, #EMPLOYMENT-LAW-detail, #ESTATE-PLANING-detail, #HEALTHCARE-LAW-detail, #MEDIATION-detail
+{
+    font-size: 2rem;
+    text-align: center;
+    color: #5c1b1b;
+    padding: 2rem 0 2rem 0;
+}
+
+/*    --------------------------------  faq style ----------------------*/
+.faq-all-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f5f8ff;
+}
+.faqcontainer{
+margin: 0 40px;
+max-width: 600px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.faqcontainer h1
+{
+    color: #333;
+}
+.faqcontainer .tab
+{position: relative;
+    background: #fff;
+    padding: 0 20px 20px;
+    box-shadow: 0 15px 25px rgba(0,0 ,0, 0.5);
+border-radius: 5px;
+overflow: hidden;
+}
+.faqcontainer .tab input
+{
+    appearance: none;
+}
+.faqcontainer .tab label
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.faqcontainer .tab label ::after
+{
+    content: '+';
+    position: absolute;
+    right: 20px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.1);
+    transition:transform 1s;
+}
+.faqcontainer .tab :hover label ::after
+{
+    color: #333;
+}
+.faqcontainer .tab input:checked ~label::after{
+    transform: rotate(135deg);
+}
+.faqcontainer .tab label h2{
+    width: 40px;
+    height: 40px;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.faqcontainer .tab label h3{
+    position: relative;
+    font-weight: 500;
+    color: #333;
+    z-index: 10;
+}
+.faqcontainer .tab .ccontent
+{
+    max-height: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.faqcontainer .tab input:checked ~ .ccontent{
+max-height: 100vh;
+}
