@@ -482,3 +482,156 @@ overflow: hidden;
 .faqcontainer .tab input:checked ~ .ccontent{
 max-height: 100vh;
 }
+@media  screen   and (max-width:740px){
+    *
+    {
+        max-width: 100%;
+        
+    }
+    nav 
+    {
+        
+        max-width: 100%;
+        display: flex;
+        background-color: #d1c7c7;
+        position: fixed;
+    }
+
+nav .middle{
+    min-width: 400px;
+}
+nav .icon
+{
+    visibility: hidden;
+}
+nav .logo{
+    font-size: 20px;
+    padding-right: 2rem;
+}
+
+.maincontainer .top{
+    font-size: 25px;
+    margin-top: 70px;
+}
+.maincontainer .main{
+    font-size: 36px;
+}
+.maincontainer .bottom{
+    font-size: 13px;
+}
+.secondcontainer
+{
+  
+    height: 2000px;
+
+  
+}
+.secondcontainer .inside
+{
+   
+    height: 2000px;
+   
+    flex-direction: column;
+    padding-top: 100px;
+   
+    margin: 0 0 0 0 ;
+    padding: 0 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.secondcontainer .inside .left
+{
+    
+
+  
+    border-radius: 10px;
+   min-width: 70%;
+    margin: 30px 0 0 0 ;
+    font-size: 15px;
+    min-height: 600px;
+  
+}
+.secondcontainer .inside .middle
+{
+    
+
+  
+    border-radius: 10px;
+   min-width: 70%;
+    margin: 30px 0 0 0 ;
+    font-size: 15px;
+    min-height: 600px;
+  
+}
+.secondcontainer .inside .right
+{
+    
+
+  
+    border-radius: 10px;
+   min-width: 70%;
+    margin: 30px 0 0 0 ;
+    font-size: 15px;
+    min-height: 600px;
+  
+}
+.text{
+    font-size: 20px;
+}
+.thirdcontainer 
+{
+    height: 4000px;
+    
+}
+
+.thirdcontainer .insidethirdcontainer .topcontainer
+{
+   flex-direction: column;
+   height: 1700px;
+   justify-content: space-between;
+   align-items: center;
+}
+.thirdcontainer .left
+{
+    border-radius: 10px;
+    min-width: 70%;
+     margin: 30px 0 0 0 ;
+     font-size: 15px;
+     min-height: 500px;
+   
+}
+.thirdcontainer .midle
+{
+    border-radius: 10px;
+    min-width: 70%;
+     margin: 30px 0 0 0 ;
+     font-size: 15px;
+     min-height: 500px;
+   
+}
+.thirdcontainer .right
+{
+    border-radius: 10px;
+    min-width: 70%;
+     margin: 30px 0 0 0 ;
+     font-size: 15px;
+     min-height: 500px;
+   
+}
+.thirdcontainer .insidethirdcontainer .middlecontainer
+{
+    flex-direction: column;
+   height: 1700px;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.thirdcontainer .middlecontainer p
+{
+    font-size: 20px;
+}
+.thirdcontainer .middlecontainer .head{
+    margin-bottom: 30px;
+}
+}
